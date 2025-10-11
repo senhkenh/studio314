@@ -316,10 +316,13 @@ body {
 .hero-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 2rem 24px;
     text-align: center;
     color: white;
     z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .hero-badge {
@@ -354,8 +357,57 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.pricing-intro {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.hero-pricing {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
     margin-bottom: 3rem;
     flex-wrap: wrap;
+}
+
+.price-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.price-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.price-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.price-desc {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    font-weight: 300;
 }
 
 .hero-stats {
@@ -1510,7 +1562,7 @@ body {
     }
     
     .hero-content {
-        padding: 4rem 24px 0;
+        padding: 6rem 24px 2rem;
     }
     
     .hero-title {
