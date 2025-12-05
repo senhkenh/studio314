@@ -1531,6 +1531,74 @@ body {
     }
 }
 
+/* Christmas Styles */
+.christmas-badge {
+    background: linear-gradient(135deg, #d4af37, #ffd700);
+    color: #8b0000;
+    border: 1px solid #d4af37;
+}
+
+.christmas-card {
+    border: 2px solid #d4af37;
+    background: linear-gradient(135deg, #fff9e6, #fffbf0);
+}
+
+.christmas-popular {
+    background: linear-gradient(135deg, #8b0000, #dc143c);
+    color: white;
+}
+
+.christmas-btn {
+    background: linear-gradient(135deg, #8b0000, #dc143c);
+}
+
+.christmas-btn:hover {
+    background: linear-gradient(135deg, #660000, #b91c3c);
+}
+
+.single-item {
+    display: flex;
+    justify-content: center;
+}
+
+.single-item .pricing-card {
+    max-width: 350px;
+}
+
+/* Christmas Styles */
+.christmas-badge {
+    background: linear-gradient(135deg, #d4af37, #ffd700);
+    color: #8b0000;
+    border: 1px solid #d4af37;
+}
+
+.christmas-card {
+    border: 2px solid #d4af37;
+    background: linear-gradient(135deg, #fff9e6, #fffbf0);
+}
+
+.christmas-popular {
+    background: linear-gradient(135deg, #8b0000, #dc143c);
+    color: white;
+}
+
+.christmas-btn {
+    background: linear-gradient(135deg, #8b0000, #dc143c);
+}
+
+.christmas-btn:hover {
+    background: linear-gradient(135deg, #660000, #b91c3c);
+}
+
+.single-item {
+    display: flex;
+    justify-content: center;
+}
+
+.single-item .pricing-card {
+    max-width: 350px;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .pricing-grid {
