@@ -1531,6 +1531,49 @@ body {
     }
 }
 
+/* Christmas Showcase Section */
+.christmas-showcase {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #fff9e6 0%, #f0f8ff 100%);
+}
+
+.christmas-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.christmas-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.christmas-svg {
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.christmas-svg:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .christmas-images {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .christmas-svg {
+        max-width: 250px;
+    }
+}
+
 /* Christmas Styles */
 .section-badge.christmas-badge {
     background: linear-gradient(135deg, #d4af37, #ffd700) !important;
